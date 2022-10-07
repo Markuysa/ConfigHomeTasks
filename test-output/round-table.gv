@@ -1,0 +1,16 @@
+// Dependencies of requests
+digraph {
+	requests [label=requests]
+	"charset-normalizer(<3,>=2)" [label="charset-normalizer(<3,>=2)"]
+	requests -> "charset-normalizer(<3,>=2)"
+	"idna(<4,>=2.5)" [label="idna(<4,>=2.5)"]
+	requests -> "idna(<4,>=2.5)"
+	"urllib3(<1.27,>=1.21.1)" [label="urllib3(<1.27,>=1.21.1)"]
+	requests -> "urllib3(<1.27,>=1.21.1)"
+	"certifi(>=2017.4.17)" [label="certifi(>=2017.4.17)"]
+	requests -> "certifi(>=2017.4.17)"
+	"PySocks(!=1.5.7,>=1.5.6)" [label="PySocks(!=1.5.7,>=1.5.6)"]
+	requests -> "PySocks(!=1.5.7,>=1.5.6)"
+	"chardet(<6,>=3.0.2)" [label="chardet(<6,>=3.0.2)"]
+	requests -> "chardet(<6,>=3.0.2)"
+}
